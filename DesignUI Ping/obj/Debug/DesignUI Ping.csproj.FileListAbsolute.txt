@@ -1,0 +1,26 @@
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\DesignUI_Ping.Properties.Resources.resources
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\DesignUI Ping.csproj.GenerateResource.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\DesignUI Ping.csproj.CoreCompileInputs.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\Ping.exe
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\Ping.pdb
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\bin\Debug\Ping.exe
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\bin\Debug\Ping.pdb
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\DesignUI_Ping.PingOPS.resources
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\DesignUI Ping.csproj.AssemblyReference.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\bin\Debug\Ping.exe.manifest
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\bin\Debug\Ping.application
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\Ping.exe.manifest
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\yt_DesignUI\obj\Debug\Ping.application
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\bin\Debug\Ping.exe.manifest
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\bin\Debug\Ping.application
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\bin\Debug\Ping.exe
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\bin\Debug\Ping.pdb
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\DesignUI Ping.csproj.AssemblyReference.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\DesignUI_Ping.PingOPS.resources
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\DesignUI_Ping.Properties.Resources.resources
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\DesignUI Ping.csproj.GenerateResource.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\DesignUI Ping.csproj.CoreCompileInputs.cache
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\Ping.exe.manifest
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\Ping.application
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\Ping.exe
+C:\Users\Eduard.Karpov\source\repos\WinFormsUserInterface-master\WinFormsUserInterface-master\DesignUI Ping\obj\Debug\Ping.pdb
