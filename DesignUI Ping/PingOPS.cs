@@ -2,6 +2,7 @@
 using DesignUI_Ping.Controls;
 using System;
 using System.Diagnostics;
+using System.IO;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
@@ -11,16 +12,48 @@ using System.Windows.Forms;
 namespace DesignUI_Ping
 {
 
-    // Класс PingOPS основной формы приложения Ping
+    // Класс PingOPS основной формы приложения Ping   
 
     public partial class PingOPS : ShadowedForm
     {
+        //Переменные
+
+        readonly static string baseFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        readonly static string appStorageFolder = Path.Combine(baseFolder, "Start_EAS_Trans");
+
         //Конструктор формы PingOPS      
 
         public PingOPS()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+            AutoCompleteStringCollection source = new AutoCompleteStringCollection() { };
+            source.AddRange(ReadText(appStorageFolder + @"\data\path\Start_EAS_Trans\save\eas all ops.txt"));
+            egoldsGoogleTextBox1.AutoCompleteCustomSource = source;
+            egoldsGoogleTextBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
+            egoldsGoogleTextBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
             Animator.Start();
+        }
+
+        // Метод для считывания текста из текстового документа по заданному пути
+
+        public string[] ReadText(string path)
+        {
+            int count = File.ReadAllLines(path).Length;
+            string[] array = new string[count];
+            using (StreamReader fs = new StreamReader(path))
+            {
+                int counter = 0;
+                while (true)
+                {
+                    counter++;
+                    string temp = fs.ReadLine();
+                    if (temp == null) break;
+                    array[counter - 1] = temp;
+                }
+            }
+            return array;
         }
 
         //Метод для запуска приложений по имени процесса приложения и пути,
@@ -203,6 +236,13 @@ namespace DesignUI_Ping
                     SW_MAX = 11,
                 }
             }
+        }
+
+        // Событие, устанавливающее клавишу Enter, как клавишу по умолчанию для кнопки "Ping" (yt_Button1)
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) yt_Button1.PerformClick();
         }
 
         // Событие кнопки "Ping"

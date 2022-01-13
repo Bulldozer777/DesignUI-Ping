@@ -6,6 +6,7 @@ using System.Windows.Forms;
 using System.Design;
 using System.Windows.Forms.Design;
 using EgoldsUI;
+using System.Collections;
 
 namespace DesignUI_Ping
 {
@@ -15,6 +16,8 @@ namespace DesignUI_Ping
     {
         #region -- Свойства --
 
+
+        //public AutoCompleteStringCollection AutoCompleteStringCollection { get; set; }
         public string TextPreview { get; set; } = "Input text";
 
         private Font fontTextPreview = new Font("Arial", 8, FontStyle.Bold);
@@ -63,6 +66,22 @@ namespace DesignUI_Ping
             }
         }
 
+        public int Count => throw new NotImplementedException();
+
+        public object SyncRoot => throw new NotImplementedException();
+
+        public bool IsSynchronized => throw new NotImplementedException();
+
+        public bool IsReadOnly => throw new NotImplementedException();
+
+        public bool IsFixedSize => throw new NotImplementedException();
+
+        public AutoCompleteStringCollection AutoCompleteCustomSource { get; set; }
+        public AutoCompleteMode AutoCompleteMode { get; set; }
+        public AutoCompleteSource AutoCompleteSource { get; set; }
+
+        public object this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         #endregion
 
         #region -- События / Events --
@@ -98,7 +117,6 @@ namespace DesignUI_Ping
             Font = new Font("Arial", 11.25F, FontStyle.Regular);
             ForeColor = Color.Black;
             BackColor = Color.White;
-
             Cursor = Cursors.IBeam;
 
             SF.Alignment = StringAlignment.Center;
@@ -131,7 +149,6 @@ namespace DesignUI_Ping
             int offset = TextRenderer.MeasureText(TextPreview, FontTextPreview).Height / 2;
             tbInput.Location = new Point(5, Height / 2 - offset);
             tbInput.Size = new Size(Width - 10, tbInput.Height);
-
             tbInput.LostFocus += TbInput_LostFocus;
         }
 
@@ -255,7 +272,6 @@ namespace DesignUI_Ping
 
             TextPreviewAction(true);
         }
-
 
 
         /// <summary>

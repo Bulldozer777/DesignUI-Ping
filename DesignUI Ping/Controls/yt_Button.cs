@@ -8,8 +8,47 @@ using System.Windows.Forms;
 
 namespace DesignUI_Ping
 {
-    public class yt_Button : Control
+    public class yt_Button : Control, IButtonControl
     {
+        private DialogResult myDialogResult;
+
+        // Add implementation to the IButtonControl.DialogResult property.
+        public DialogResult DialogResult
+        {
+            get
+            {
+                return this.myDialogResult;
+            }
+
+            set
+            {
+                if (Enum.IsDefined(typeof(DialogResult), value))
+                {
+                    this.myDialogResult = value;
+                }
+            }
+        }
+
+        // Add implementation to the IButtonControl.NotifyDefault method.
+        public void NotifyDefault(bool value)
+        {
+            if (this.IsDefault != value)
+            {
+                this.IsDefault = value;
+            }
+        }
+
+        // Add implementation to the IButtonControl.PerformClick method.
+        public void PerformClick()
+        {
+            if (this.CanSelect)
+            {
+                this.OnClick(EventArgs.Empty);
+            }
+        }
+
+
+
         #region -- Свойства --
 
         [Description("Цвет обводки (границы) кнопки")]
@@ -85,7 +124,7 @@ namespace DesignUI_Ping
                 base.Text = value;
                 Invalidate();
             }
-        }
+        }    
 
         #endregion
 
@@ -103,6 +142,7 @@ namespace DesignUI_Ping
         Dictionary<Animation, Rectangle> RippleButtonAnimDic = new Dictionary<Animation, Rectangle>();
 
         Point ClickLocation = new Point();
+        private bool IsDefault;
 
         #endregion
 

@@ -59,6 +59,7 @@ namespace DesignUI_Ping
             this.yt_Button1.BorderColorOnHover = System.Drawing.Color.Black;
             this.yt_Button1.BorderColorOnHoverEnabled = false;
             this.yt_Button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button1.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button1.ForeColor = System.Drawing.Color.White;
             this.yt_Button1.Location = new System.Drawing.Point(11, 50);
@@ -102,6 +103,7 @@ namespace DesignUI_Ping
             this.yt_Button2.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button2.BorderColorOnHoverEnabled = false;
             this.yt_Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button2.Font = new System.Drawing.Font("Segoe UI Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button2.ForeColor = System.Drawing.Color.White;
             this.yt_Button2.Location = new System.Drawing.Point(87, 50);
@@ -164,6 +166,7 @@ namespace DesignUI_Ping
             this.yt_Button3.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button3.BorderColorOnHoverEnabled = false;
             this.yt_Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button3.ForeColor = System.Drawing.Color.White;
             this.yt_Button3.Location = new System.Drawing.Point(11, 174);
@@ -190,6 +193,7 @@ namespace DesignUI_Ping
             this.yt_Button4.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button4.BorderColorOnHoverEnabled = false;
             this.yt_Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button4.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button4.ForeColor = System.Drawing.Color.White;
             this.yt_Button4.Location = new System.Drawing.Point(164, 86);
@@ -216,6 +220,7 @@ namespace DesignUI_Ping
             this.yt_Button5.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button5.BorderColorOnHoverEnabled = false;
             this.yt_Button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button5.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button5.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button5.ForeColor = System.Drawing.Color.White;
             this.yt_Button5.Location = new System.Drawing.Point(164, 120);
@@ -242,6 +247,7 @@ namespace DesignUI_Ping
             this.yt_Button6.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button6.BorderColorOnHoverEnabled = false;
             this.yt_Button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button6.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button6.ForeColor = System.Drawing.Color.White;
             this.yt_Button6.Location = new System.Drawing.Point(87, 174);
@@ -268,6 +274,7 @@ namespace DesignUI_Ping
             this.yt_Button7.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button7.BorderColorOnHoverEnabled = false;
             this.yt_Button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button7.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button7.ForeColor = System.Drawing.Color.White;
             this.yt_Button7.Location = new System.Drawing.Point(163, 174);
@@ -305,6 +312,7 @@ namespace DesignUI_Ping
             this.yt_Button8.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button8.BorderColorOnHoverEnabled = false;
             this.yt_Button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button8.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button8.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button8.ForeColor = System.Drawing.Color.White;
             this.yt_Button8.Location = new System.Drawing.Point(164, 4);
@@ -331,6 +339,7 @@ namespace DesignUI_Ping
             this.yt_Button9.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button9.BorderColorOnHoverEnabled = false;
             this.yt_Button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button9.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button9.ForeColor = System.Drawing.Color.White;
             this.yt_Button9.Location = new System.Drawing.Point(164, 30);
@@ -357,6 +366,7 @@ namespace DesignUI_Ping
             this.yt_Button10.BorderColorOnHover = System.Drawing.Color.Tomato;
             this.yt_Button10.BorderColorOnHoverEnabled = false;
             this.yt_Button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.yt_Button10.DialogResult = System.Windows.Forms.DialogResult.None;
             this.yt_Button10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.yt_Button10.ForeColor = System.Drawing.Color.White;
             this.yt_Button10.Location = new System.Drawing.Point(164, 58);
